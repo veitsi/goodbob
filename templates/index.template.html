@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>greetings for Bobs</title>
+</head>
+<body>
+<label>your name: <input type="text" id="username"></label>
+
+<div id="greeting"></div>
+<input type="button" id="greetbutton" value="give me a favour">
+
+<script>
+    document.getElementById("greetbutton").onclick = function () {
+        document.getElementById('greeting').innerHTML = "уже давно не бла бла бла";
+    }
+
+
+</script>
+
+</body>
+</html>
